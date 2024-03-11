@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(24, 23, 23);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(142,144,187,1) 61%);
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+.block {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap:13px;
+}
+.div{
+  background-color: rgb(204, 206, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 15px;
+  border-radius:30px;
+  font-weight: bolder;
+  
+}
+p{
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 710;
+  margin-top: 20px;
+}
+.block2{
+  background-color: rgb(204, 206, 236);
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 10px 0 10px 10px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.block3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top:10px;
+  gap: 50px;
+  margin-bottom: 10px;
+}
+.block4{
+  background: rgb(184,184,223);
+  background: linear-gradient(0deg, rgba(184,184,223,1) 0%, rgba(255,255,255,1) 16%);
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  border-radius: 50px;
+  height: 750px;
+  -webkit-box-shadow: -1px 0px 8px -3px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -1px 0px 8px -3px rgba(34, 60, 80, 0.2);
+  box-shadow: -1px 0px 8px -3px rgba(34, 60, 80, 0.2);
+  font-weight: 700;
+}
+img{
+  width: 85%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.p1{
+  font-size: 23px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.block5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+  
+}
+.block6{
+  color: black;
+  margin: 0 auto;
+  padding-right: 120px;
+}
+button{
+  background-color: blue;
+  color: white;
+  border-radius: 18px;
+  height: 50px;
+  width: 150px;
+  border: none;
+  -webkit-box-shadow: -1px 0px 8px -3px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -1px 0px 8px -3px rgba(34, 60, 80, 0.2);
+  box-shadow: -1px 0px 8px -3px rgba(34, 60, 80, 0.2);
+  font-weight: 800;
+  font-size: medium;
+}
+button:hover{
+  transform: scale(1.5);
+  background-color: rgb(27, 27, 66);
+  cursor: pointer;
+  content: Please;
+}
+
+
+
+
+
+
+
